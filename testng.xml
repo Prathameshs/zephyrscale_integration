@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" name="ZephyrScaleTest" parallel="none" >
-    <parameter name="browser" value="CHROME"/>
-    <parameter name="language" value="ENGLISH"/>
+<suite thread-count="1" name="ZephyrScaleTest">
     <test name="AUD-T13">
         <classes>
             <class name="com.prathamesh.poc.zephryscaleupdates.PassingTest"/>
