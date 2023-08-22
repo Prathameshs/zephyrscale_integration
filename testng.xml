@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="1" name="ZephyrScaleTest">
-    <test name="test_that_passes">
+    <test name="Test 1">
         <classes>
             <class name="com.prathamesh.poc.zephryscaleupdates.PassingTest"/>
         </classes>
     </test>
-    <test name="test_that_fails">
+    <test name="Test 2">
         <classes>
             <class name="com.prathamesh.poc.zephryscaleupdates.FailingTest"/>
         </classes>

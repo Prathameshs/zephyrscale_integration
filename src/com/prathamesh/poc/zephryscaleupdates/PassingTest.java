@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 
 public class PassingTest {
 
-    @Test(description = "AUD-T13")
-    public void test_that_passes() {
+    @Test
+    public void AUD_T13_test_that_passes() {
         String s = "This is just a passing test!";
         Assert.assertTrue(true, "This is just a passing test!");
     }
